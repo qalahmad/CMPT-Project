@@ -1,0 +1,10 @@
+match,teamInnings,battingPos,batsmanName,runs,balls,4s,6s,SR,out/not_out,match_id
+Namibia Vs Sri Lanka,Namibia,1,Michael van Lingen,3,6,0,0,50.00,out,T20I # 1823
+Namibia Vs Sri Lanka,Namibia,2,Divan la Cock,9,9,1,0,100.00,out,T20I # 1823
+Namibia Vs Sri Lanka,Namibia,3,Jan Nicol Loftie-Eaton,20,12,1,2,166.66,out,T20I # 1823
+U.A.E. Vs Netherlands,U.A.E.,1,Chirag Suri,12,20,1,0,60.00,out,T20I # 1825
+U.A.E. Vs Netherlands,Netherlands,9,Logan van Beek,4,4,0,0,100.00,not_out,T20I # 1825
+Scotland Vs West Indies,Scotland,1,George Munsey,66,53,9,0,124.52,not_out,T20I # 1826
+Scotland Vs West Indies,West Indies,10,Odean Smith,5,8,0,0,62.50,out,T20I # 1826
+Scotland Vs West Indies,West Indies,11,Obed McCoy,2,3,0,0,66.66,not_out,T20I # 1826
+Zimbabwe Vs Ireland,Zimbabwe,1,Regis Chakabva,0,2,0,0,0.00,out,T20I # 1828
