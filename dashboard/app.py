@@ -120,7 +120,7 @@ def display_batting_analysis(batting_data, player_data):
     
     # Top run scorers
     st.subheader("Top Run Scorers")
-    top_batsmen = batting_data.groupby('batsmanname').agg({
+    top_batsmen = batting_data.groupby('batsmanName').agg({
         'runs': 'sum',
         'balls': 'sum',
         '4s': 'sum', 
@@ -137,10 +137,10 @@ def display_batting_analysis(batting_data, player_data):
     # Bar chart for top run scorers
     fig = px.bar(
         top_batsmen, 
-        x='batsmanname', 
+        x='batsmanName', 
         y='runs',
         title='Top 10 Run Scorers',
-        labels={'batsmanname': 'Batsman', 'runs': 'Total Runs'},
+        labels={'batsmanName': 'Batsman', 'runs': 'Total Runs'},
         color='runs'
     )
     st.plotly_chart(fig, use_container_width=True)
@@ -152,7 +152,7 @@ def display_batting_analysis(batting_data, player_data):
         x='strike_rate',
         y='boundary_percentage',
         size='runs',
-        hover_name='batsmanname',
+        hover_name='batsmanName',
         title='Strike Rate vs Boundary Percentage',
         labels={
             'strike_rate': 'Strike Rate',
@@ -175,7 +175,7 @@ def display_bowling_analysis(bowling_data, player_data):
     
     # Top wicket takers
     st.subheader("Top Wicket Takers")
-    top_bowlers = bowling_data.groupby('bowlername').agg({
+    top_bowlers = bowling_data.groupby('bowlerName').agg({
         'wickets': 'sum',
         'runs': 'sum',
         'overs': 'sum'
@@ -190,10 +190,10 @@ def display_bowling_analysis(bowling_data, player_data):
     # Bar chart for top wicket takers
     fig = px.bar(
         top_bowlers,
-        x='bowlername',
+        x='bowlerName',
         y='wickets',
         title='Top 10 Wicket Takers',
-        labels={'bowlername': 'Bowler', 'wickets': 'Total Wickets'},
+        labels={'bowlerName': 'Bowler', 'wickets': 'Total Wickets'},
         color='wickets'
     )
     st.plotly_chart(fig, use_container_width=True)
