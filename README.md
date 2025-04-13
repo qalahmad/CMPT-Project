@@ -3,6 +3,8 @@
 ## Project Overview
 This project is a comprehensive data analysis system for T20 cricket, focusing on player performance analysis and optimal team selection. The project follows a structured pipeline from data collection to interactive visualization.
 
+The data we collected and cleaned is under the `data_collection_and_cleaning_output` folder.
+
 ## Project Structure
 The project is organized into 5 main stages:
 
